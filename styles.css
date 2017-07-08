@@ -1,0 +1,169 @@
+body {
+  background-color: #212121;
+  margin: 0 auto;
+  width: 900pt; }
+
+#header {
+  background-color: #484848;
+  height: 62pt; }
+
+#returnToTop {
+  height: 60pt;
+  width: 60pt;
+  background-color: #484848;
+  border-radius: 40pt;
+  position: fixed;
+  left: -300pt;
+  bottom: 80pt;
+  border: none;
+  z-index: 5; }
+
+.returnImg {
+  height: 40pt;
+  width: 40pt;
+  margin: 0 auto; }
+
+#everything {
+  border-radius: 3pt; }
+
+.title {
+  font-size: 2.5rem;
+  color: #FAFAFA; }
+
+.navButton {
+  font-size: 1.6rem;
+  font-family: Roboto-thin;
+  color: #FAFAFA;
+  height: 100%;
+  padding-top: 1.5rem;
+  width: 150pt; }
+
+.endNavButton {
+  margin-right: 60pt; }
+
+#page1 {
+  background-color: #D32F2F;
+  height: 600pt;
+  border-top-left-radius: 3pt;
+  border-top-right-radius: 8pt; }
+
+.topCover {
+  height: 75pt;
+  background-color: #F44336;
+  border-top-left-radius: 3pt;
+  border-top-right-radius: 3pt; }
+
+.images {
+  height: 390pt;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.imgTitle {
+  position: relative;
+  top: -390pt;
+  font-family: Roboto-medium;
+  font-size: 5rem;
+  left: 30pt;
+  color: #FAFAFA;
+  margin-top: 40pt;
+  margin-bottom: 20pt; }
+
+.imgDescription {
+  position: relative;
+  top: -390pt;
+  font-family: Roboto-thin;
+  font-size: 1.4rem;
+  left: 200pt;
+  color: #FAFAFA;
+  max-width: 65%;
+  width: 600pt;
+  text-align: justify;
+  border-radius: 4.5pt;
+  padding: 12pt;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.imgButton {
+  position: relative;
+  top: -380pt;
+  font-size: 1rem;
+  font-family: roboto;
+  width: 110pt;
+  margin-left: 395pt; }
+
+.slide {
+  overflow: hidden;
+  height: 390pt;
+  width: 900pt;
+  white-space: normal;
+  display: inline-block; }
+
+#firstslide {
+  position: relative; }
+
+#secondslide {
+  position: relative; }
+
+#thirdslide {
+  position: relative; }
+
+.slideImage {
+  width: 100%;
+  height: 390pt; }
+
+.radioButtons {
+  height: 35pt;
+  padding-top: 5pt;
+  display: flex;
+  justify-content: center;
+  background-color: #EF5350; }
+
+.bottomCover {
+  position: relative;
+  top: 00pt;
+  height: 95pt;
+  width: 100%;
+  max-width: 900pt;
+  background-color: #F44336; }
+
+#page2 {
+  background-color: #009688;
+  height: 600pt;
+  padding: 20pt; }
+
+.p2Title {
+  position: relative;
+  left: 20pt;
+  text-align: center;
+  margin: 0 auto;
+  color: #FAFAFA;
+  font-family: roboto-thin;
+  font-size: 4rem;
+  margin-top: 10pt;
+  margin-bottom: 20pt; }
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 500pt; }
+
+.card {
+  background-color: #FAFAFA;
+  height: 225pt;
+  width: 225pt;
+  border-radius: 1pt; }
+
+.mdc-card__media {
+  background-image: url("resources/placeholderbackgroundsquare.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150pt; }
+
+#page3 {
+  background-color: #4CAF50;
+  height: 600pt;
+  border-bottom-left-radius: 3pt;
+  border-bottom-right-radius: 3pt; }
+
+/*# sourceMappingURL=styles.css.map */
