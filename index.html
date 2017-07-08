@@ -1,1 +1,290 @@
+<html class="mdc-typography">
+	<head>
+		<title>David Cosby</title>
+		<!-- JQuery -->
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!--Roboto Font -->
+		<link rel="stylesheet" href = "fonts.css">
+		<!--Material Web Components-->
+		<link rel="stylesheet" href="C:/Users/night/node_modules/material-components-web/dist/material-components-web.css">
+		<!--Update Theme -->
+		<link rel="stylesheet" href = "homeTheme.css">
+		<!--Custom Stylesheet -->
+		<link rel="stylesheet" href = "styles.css"
+			link
+		</head>
+		<body>
+			<header class="mdc-toolbar mdc-toolbar--fixed" id="header">
+				<div class="mdc-toolbar__row">
+					<section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+						<span class="mdc-toolbar__title title">DAVID COSBY&nbsp&nbsp&nbsp&nbsp</span>
+					</section>
+					<!-- TODO: Add a div here to move buttons off the the side with "justify-content: flex-end"-->
+					<section class="mdc-toolbar__section mdc-toolbar__section--align-end">
+						<a class="mdc-button mdc-button--accent  navButton" data-mdc-auto-init="MDCRipple" href = "#page1">
+							HOME
+						</a>
+					</section>
+					<section class="mdc-toolbar__section mdc-toolbar__section--align-end">
+						<a class="mdc-button mdc-button--accent navButton"data-mdc-auto-init="MDCRipple"  href = "#page2">
+							PROJECTS
+						</a>
+					</section>
+					<section class="mdc-toolbar__section mdc-toolbar__section--align-end endNavButton">
+						<a class="mdc-button mdc-button--accent  navButton" data-mdc-auto-init="MDCRipple" href = "#page3">
+							ABOUT
+						</a>
+					</section>
+					
+				</div>
+			</header>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div id="everything" class = "mdc-elevation--z24">
+				<button id = "returnToTop" class = "mdc-fab mdc-elevation--z18" data-mdc-auto-init="MDCRipple">
+				<img src = "resources/uparrow.svg" class = "returnImg">
+				</button>
+				<div id="page1">
+					<div class="topCover">
+					</div>
+					<div class = "images"> <!-- 30:13 aspect ratio -->
+					<div id = "firstSlide" class = "slide">
+						<img src="resources/placeholderbackground.png" class = "slideImage">
+						<h3 class = "imgTitle"> Lorem Ipsum! </h3>
+						<p class = "imgDescription mdc-elevation--z2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<button class = "mdc-button mdc-button--accent mdc-button--raised imgButton" data-mdc-auto-init="MDCRipple"> CHECK IT OUT </button>
+					</div>
+					<div id = "secondSlide" class = "slide">
+						<img src="resources/placeholderbackground.png" class = "slideImage">
+						<h3 class = "imgTitle"> Lorem Ipsum #2! </h3>
+						<p class = "imgDescription mdc-elevation--z2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<button class = "mdc-button mdc-button--accent mdc-button--raised imgButton" data-mdc-auto-init="MDCRipple"> CHECK IT OUT </button>
+					</div>
+					<div id = "thirdSlide" class = "slide">
+						<img src="resources/placeholderbackground.png" class = "slideImage">
+						<h3 class = "imgTitle"> Lorem Ipsum #3! </h3>
+						<p class = "imgDescription mdc-elevation--z2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<button class = "mdc-button mdc-button--accent mdc-button--raised imgButton" data-mdc-auto-init="MDCRipple"> CHECK IT OUT </button>
+					</div>
+				</div>
+				<div class = "radioButtons">
+					<div class="mdc-radio">
+						<input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" onclick="slide1()" checked>
+						<div class="mdc-radio__background">
+							<div class="mdc-radio__outer-circle"></div>
+							<div class="mdc-radio__inner-circle"></div>
+						</div>
+					</div>
+					<div class="mdc-radio">
+						<input class="mdc-radio__native-control" type="radio" id="radio-2" name="radios" onclick="slide2()">
+						<div class="mdc-radio__background">
+							<div class="mdc-radio__outer-circle"></div>
+							<div class="mdc-radio__inner-circle"></div>
+						</div>
+					</div>
+					<div class="mdc-radio">
+						<input class="mdc-radio__native-control" type="radio" id="radio-3" name="radios" onclick="slide3()">
+						<div class="mdc-radio__background">
+							<div class="mdc-radio__outer-circle"></div>
+							<div class="mdc-radio__inner-circle"></div>
+						</div>
+					</div>
+				</div>
+				<div class="bottomCover">
+				</div>
+			</div>
+			<div id="page2">
+			<p class = "p2Title"> My Projects </p>
+				<div class="cardContainer">
+					<div class="mdc-card card">
+					<section class="mdc-card__media"></section>
+					<section class="mdc-card__primary">
+						<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+						<h2 class="mdc-card__subtitle">Subtitle here</h2>
+					</section>
+					
+					<section class="mdc-card__actions">
+						<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+						<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+					</section>
+				</div>
+				<div class="mdc-card card">
+				<section class="mdc-card__media"></section>
+				<section class="mdc-card__primary">
+					<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+					<h2 class="mdc-card__subtitle">Subtitle here</h2>
+				</section>
+				
+				<section class="mdc-card__actions">
+					<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+					<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+				</section>
+			</div>
+			<div class="mdc-card card">
+			<section class="mdc-card__media"></section>
+			<section class="mdc-card__primary">
+				<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+				<h2 class="mdc-card__subtitle">Subtitle here</h2>
+			</section>
+			
+			<section class="mdc-card__actions">
+				<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+				<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+			</section>
+		</div>
+		<div class="mdc-card card">
+		<section class="mdc-card__media"></section>
+		<section class="mdc-card__primary">
+			<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+			<h2 class="mdc-card__subtitle">Subtitle here</h2>
+		</section>
+		
+		<section class="mdc-card__actions">
+			<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+			<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+		</section>
+	</div>
+	<div class="mdc-card card">
+	<section class="mdc-card__media"></section>
+	<section class="mdc-card__primary">
+		<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+		<h2 class="mdc-card__subtitle">Subtitle here</h2>
+	</section>
+	
+	<section class="mdc-card__actions">
+		<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+		<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+	</section>
+</div>
+<div class="mdc-card card">
+<section class="mdc-card__media"></section>
+<section class="mdc-card__primary">
+	<h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+	<h2 class="mdc-card__subtitle">Subtitle here</h2>
+</section>
 
+<section class="mdc-card__actions">
+	<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 1</button>
+	<button class="mdc-button mdc-button--compact mdc-card__action" data-mdc-auto-init="MDCRipple">Action 2</button>
+</section>
+</div>
+</div>
+</div>
+<div id="page3">
+</div>
+</div>
+<br>
+<br>
+<br>
+<!--return to top button Credit to : https://codepen.io/rdallaire/pen/apoyx-->
+<script>
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 350) {
+$('#returnToTop').animate({
+left : 50,
+opacity: 1
+}, 100);
+} else {
+$('#returnToTop').animate({
+left : -300,
+opacity : 0
+}, 100);
+}});
+$('#returnToTop').click(function() {      // When arrow is clicked
+	$('body,html').animate({
+scrollTop : 0                       // Scroll to top of body
+}, 500);
+
+});
+</script>
+<!--Slideshow -->
+<script>
+var currentIndex = 1; // That's right, I start with 1, not 0.
+var slideSpeed = 350 // animation duration
+var lastChange = Date.now()
+var changeFrequency = 10000 // 10 secs
+function slide1() {
+	changeIndex(1)
+}
+function slide2() {
+	changeIndex(2)
+}
+function slide3() {
+	changeIndex(3)
+		}
+function changeIndex(newIndex) {
+	currentIndex = newIndex
+	lastChange = Date.now();
+	switch (currentIndex) {
+		case 1:
+		$("#firstSlide").animate({
+			right : 0+"pt",
+		}, slideSpeed)
+		$("#secondSlide").animate({
+			left : 0+"pt",
+		}, slideSpeed)
+		$("#thirdSlide").animate({
+			left: 0 + "pt"
+		}, slideSpeed)
+		$("#radio-1").prop("checked", true)
+		$("#radio-2").prop("checked", false)
+		$("#radio-3").prop("checked", false)
+		break;
+		case 2:
+		$("#firstSlide").animate({
+			right : 900+"pt",
+		}, slideSpeed)
+		$("#secondSlide").animate({
+			left : -902.5+"pt",
+			}, slideSpeed)
+		$("#thirdSlide").animate({
+			left: -902.5+"pt"
+		}, slideSpeed)
+		$("#radio-1").prop("checked", false)
+			$("#radio-2").prop("checked", true)
+		$("#radio-3").prop("checked", false)
+		break;
+		case 3:
+		$("#firstSlide").animate({
+			right : 1800+"pt",
+		}, slideSpeed)
+		$("#secondSlide").animate({
+			left : -1805+"pt",
+			}, slideSpeed)
+		$("#thirdSlide").animate({
+			left: -1805.5+"pt"
+		}, slideSpeed)
+		$("#radio-1").prop("checked", false)
+			$("#radio-2").prop("checked", false)
+		$("#radio-3").prop("checked", true)
+	}
+}
+function checkAndUpdate() {
+	if ((Date.now() - lastChange) >= changeFrequency) {
+		var nextSlide = (currentIndex + 1) % 4
+		changeIndex(nextSlide);
+	}
+}
+setInterval(checkAndUpdate, 500)
+
+</script>
+
+<script src="C:/Users/night/node_modules/material-components-web/dist/material-components-web.js"></script>
+<script> mdc.autoInit() </script>
+<script>
+var toolbar = mdc.toolbar.MDCToolbar.attachTo(document.querySelector('.mdc-toolbar'));
+toolbar.fixedAdjustElement = document.querySelector('.mdc-toolbar-fixed-adjust');
+</script>
+
+</body>
