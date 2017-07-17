@@ -51,7 +51,8 @@ body {
   height: 75pt;
   background-color: #F44336;
   border-top-left-radius: 3pt;
-  border-top-right-radius: 3pt; }
+  border-top-right-radius: 3pt;
+  padding-top: 1pt; }
 
 .images {
   height: 390pt;
@@ -132,12 +133,11 @@ body {
 
 .p2Title {
   position: relative;
-  left: 20pt;
   text-align: center;
   margin: 0 auto;
   color: #FAFAFA;
   font-family: roboto-thin;
-  font-size: 4rem;
+  font-size: 3.8rem;
   margin-top: 10pt;
   margin-bottom: 20pt; }
 
@@ -146,11 +146,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   height: 500pt; }
 
 .card {
   background-color: #FAFAFA;
-  height: 225pt;
+  height: 250pt;
   width: 225pt;
   border-radius: 1pt; }
 
