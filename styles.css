@@ -161,6 +161,10 @@ body {
   background-repeat: no-repeat;
   height: 150pt; }
 
+.advancedclipboard{
+  background-image: url("resources/advancedClipboard.png");
+}
+
 #page3 {
   background-color: #4CAF50;
   height: 600pt;
